@@ -37,3 +37,8 @@ escolha_obstaculo = choice([0, 1])
 pontos = 0
 
 velocidade_jogo = 10            
+
+        
+    tela.blit(texto_pontos, (520, 30))
+
+    pygame.display.flip()
